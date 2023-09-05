@@ -1,3 +1,3 @@
 # simple-todo
 
-[Demo](https://dmitriylasuta.github.io/simple-todo/)
+[Demo](https://dmitrylasuta.github.io/simple-todo/)
