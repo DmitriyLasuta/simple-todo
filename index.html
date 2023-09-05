@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="./styles/reset.min.css" />
+		<link rel="stylesheet" href="./styles/styles.css" />
+		<script src="./scripts/index.js" type="module"></script>
+
+		<title>ToDo</title>
+	</head>
+	<body>
+		<main id="root">
+			<form class="form" id="manage-tasks">
+				<button class="btn" id="delete-all-btn" type="button">
+					Delete all
+				</button>
+				<button class="btn" id="delete-last-btn" type="button">
+					Delete last
+				</button>
+				<input
+					class="inp"
+					name="task"
+					type="text"
+					placeholder="Enter task ..."
+				/>
+				<button class="btn" type="submit">Add</button>
+			</form>
+			<nav class="nav">
+				<span class="counter" id="all-tasks">All: 0</span>
+				<span class="counter" id="completed-tasks">Completed: 0</span>
+				<button class="btn btn-active" id="show-all-tasks-btn" type="button">
+					Show all
+				</button>
+				<button class="btn" id="show-completed-tasks-btn" type="button">
+					Show completed
+				</button>
+				<input class="inp" type="search" placeholder="Search..." />
+			</nav>
+			<ul id="tasks-list"></ul>
+		</main>
+	</body>
+</html>
